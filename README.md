@@ -7,7 +7,7 @@ Le Mans Ultimate does not "live broadcast" changes made to electronics via exter
 ---
 
 ## 💾 Installation
-1. Go to the [Releases](https://github.com/nikolaiNr7/LMU-Electronic-Bridge-Release/releases/tag/v1.0.0) page.
+1. Go to the [Releases](https://github.com/nikolaiNr7/LMU-Electronic-Bridge-Release/releases) page.
 2. Download the latest `LMUElectronicBridge.dll`.
 3. Right-click the DLL -> **Properties** -> Check **"Unblock"** (Windows security).
 4. Copy the DLL into your SimHub installation folder (usually `C:\Program Files (x86)\SimHub`).
