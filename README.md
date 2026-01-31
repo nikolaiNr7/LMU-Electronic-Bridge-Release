@@ -66,6 +66,13 @@ The plugin is designed to be "Smart" but requires specific triggers to match the
 * **Dashboard doesn't match MFD:** You likely used the in-game menu instead of your mapped buttons. Click "Force Sync" or return to the pits to reset.
 
 ---
+## 🎖️ Credits
+
+- **[Haagles Github](https://github.com/Haagel-FR)** 🏎️  
+  * Huge thanks to **Haagel-FR** for the Hypercar Look-up Tables. Auther of the NeoRed Plugin
+  * `📊 Data Provider` `🔥 Hypercar Physics`
+
+---
 
 ## ⚖️ License & Terms
 
