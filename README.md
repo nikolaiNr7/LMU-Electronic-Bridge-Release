@@ -38,6 +38,35 @@ The plugin provides custom properties that are much more descriptive than the de
 | `[LMUElectronicBridge.BrakeMigration_Str]` | Dynamic Brake Bias | `1.5% F` |
 | `[LMUElectronicBridge.FrontARB_Str]` | Anti-Roll Bar Setting | `P3` |
 
+### Full List of Properties:
+### 📊 LMU Electronic Bridge: Property Reference
+
+| Property Name | Description | NCalc Syntax | JavaScript Syntax |
+| :--- | :--- | :--- | :--- |
+| **TC_Main** | Primary Traction Control Level (Int) | `[LMUElectronicBridge.TC_Main]` | `$prop('LMUElectronicBridge.TC_Main')` |
+| **TC_Main_Str** | TC Main Display Value (String) | `[LMUElectronicBridge.TC_Main_Str]` | `$prop('LMUElectronicBridge.TC_Main_Str')` |
+| **TC_Cut** | TC Power Cut Level (Int) | `[LMUElectronicBridge.TC_Cut]` | `$prop('LMUElectronicBridge.TC_Cut')` |
+| **TC_Cut_Str** | TC Power Cut Display Value (String) | `[LMUElectronicBridge.TC_Cut_Str]` | `$prop('LMUElectronicBridge.TC_Cut_Str')` |
+| **TC_Slip** | TC Slip Angle Level (Int) | `[LMUElectronicBridge.TC_Slip]` | `$prop('LMUElectronicBridge.TC_Slip')` |
+| **TC_Slip_Str** | TC Slip Angle Display Value (String) | `[LMUElectronicBridge.TC_Slip_Str]` | `$prop('LMUElectronicBridge.TC_Slip_Str')` |
+| **ABS** | Antilock Brake System Level (Int) | `[LMUElectronicBridge.ABS]` | `$prop('LMUElectronicBridge.ABS')` |
+| **ABS_Str** | ABS Display Value (String) | `[LMUElectronicBridge.ABS_Str]` | `$prop('LMUElectronicBridge.ABS_Str')` |
+| **BrakeMigration** | Brake Migration Level (Int) | `[LMUElectronicBridge.BrakeMigration]` | `$prop('LMUElectronicBridge.BrakeMigration')` |
+| **BrakeMigration_Str** | Brake Migration Display Value (String) | `[LMUElectronicBridge.BrakeMigration_Str]` | `$prop('LMUElectronicBridge.BrakeMigration_Str')` |
+| **Regen** | Energy Recovery/Regen Level (Int) | `[LMUElectronicBridge.Regen]` | `$prop('LMUElectronicBridge.Regen')` |
+| **Regen_Str** | Regen Display Value (String) | `[LMUElectronicBridge.Regen_Str]` | `$prop('LMUElectronicBridge.Regen_Str')` |
+| **MotorMap** | Electric Motor Map Level (Int) | `[LMUElectronicBridge.MotorMap]` | `$prop('LMUElectronicBridge.MotorMap')` |
+| **MotorMap_Str** | Motor Map Display Value (String) | `[LMUElectronicBridge.MotorMap_Str]` | `$prop('LMUElectronicBridge.MotorMap_Str')` |
+| **Mixture** | Engine Mixture Level (Int) | `[LMUElectronicBridge.Mixture]` | `$prop('LMUElectronicBridge.Mixture')` |
+| **Mixture_Str** | Mixture Display Value (String) | `[LMUElectronicBridge.Mixture_Str]` | `$prop('LMUElectronicBridge.Mixture_Str')` |
+| **FrontARB** | Front Anti-Roll Bar Level (Int) | `[LMUElectronicBridge.FrontARB]` | `$prop('LMUElectronicBridge.FrontARB')` |
+| **FrontARB_Str** | Front ARB Display Value (String) | `[LMUElectronicBridge.FrontARB_Str]` | `$prop('LMUElectronicBridge.FrontARB_Str')` |
+| **RearARB** | Rear Anti-Roll Bar Level (Int) | `[LMUElectronicBridge.RearARB]` | `$prop('LMUElectronicBridge.RearARB')` |
+| **RearARB_Str** | Rear ARB Display Value (String) | `[LMUElectronicBridge.RearARB_Str]` | `$prop('LMUElectronicBridge.RearARB_Str')` |
+| **TeamName** | Name of your current team | `[LMUElectronicBridge.TeamName]` | `$prop('LMUElectronicBridge.TeamName')` |
+| **VehicleName** | Full name of the current vehicle | `[LMUElectronicBridge.VehicleName]` | `$prop('LMUElectronicBridge.VehicleName')` |
+
+
 **To add to a Dash:**
 In Dash Studio, bind a text field to the NCalc formula: `[LMUElectronicBridge.Property_Name_Str]`.
 
