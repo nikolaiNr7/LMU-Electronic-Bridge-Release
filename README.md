@@ -70,7 +70,7 @@ The plugin is designed to be "Smart" but requires specific triggers to match the
 
 - **[Haagles Github](https://github.com/Haagel-FR)** 🏎️  
   * Huge thanks to **Haagel-FR** for the Hypercar Look-up Tables. Auther of the NeoRed Plugin
-  * `📊 Data Provider` `🔥 Hypercar Physics`
+  * `📊 Data Provider` `🔥 Hypercar Look up Tables`
 
 ---
 
