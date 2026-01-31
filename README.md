@@ -37,8 +37,8 @@ The plugin provides custom properties that are much more descriptive than the de
 | `[LMUElectronicBridge.TC_Cut_Str]` | Traction Control Power Cut | `2` |
 | `[LMUElectronicBridge.TC_Slip_Str]` | Traction Control Slip Limit | `3` |
 | `[LMUElectronicBridge.ABS_Str]` | Anti-Lock Brake System | `9` |
-| `[LMUElectronicBridge.Regen_Str]` | Current Hybrid Recovery | `51 kW` |
-| `[LMUElectronicBridge.MotorMap_Str]` | Electric Motor Map | `100 kW` |
+| `[LMUElectronicBridge.Regen_Str]` | Current Hybrid Recovery | `100 kW` |
+| `[LMUElectronicBridge.MotorMap_Str]` | Electric Motor Map | `50 kW` |
 | `[LMUElectronicBridge.BrakeMigration_Str]` | Dynamic Brake Bias Migration | `1.5% F` |
 | `[LMUElectronicBridge.FrontARB_Str]` | Front Anti-Roll Bar Setting | `P3` |
 | `[LMUElectronicBridge.RearARB_Str]` | Rear Anti-Roll Bar Setting | `P1` |
