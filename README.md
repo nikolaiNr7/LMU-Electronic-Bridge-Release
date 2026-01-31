@@ -30,13 +30,19 @@ To keep your dashboard in sync with the car, you must map your electronic contro
 
 The plugin provides custom properties that are much more descriptive than the default game values.
 
-### Popular Properties
+### 🏎️ Popular Properties
 | Property | Description | Example Value |
 | :--- | :--- | :--- |
-| `[LMUElectronicBridge.Regen_Str]` | Current Hybrid Deployment | `51 kW` |
-| `[LMUElectronicBridge.MotorMap_Str]` | Electric Motor Map | `Map 2` |
-| `[LMUElectronicBridge.BrakeMigration_Str]` | Dynamic Brake Bias | `1.5% F` |
-| `[LMUElectronicBridge.FrontARB_Str]` | Anti-Roll Bar Setting | `P3` |
+| `[LMUElectronicBridge.TC_Main_Str]` | Primary Traction Control Level | `4` |
+| `[LMUElectronicBridge.TC_Cut_Str]` | Traction Control Power Cut | `2` |
+| `[LMUElectronicBridge.TC_Slip_Str]` | Traction Control Slip Limit | `3` |
+| `[LMUElectronicBridge.ABS_Str]` | Anti-Lock Brake System | `9` |
+| `[LMUElectronicBridge.Regen_Str]` | Current Hybrid Recovery | `51 kW` |
+| `[LMUElectronicBridge.MotorMap_Str]` | Electric Motor Map | `100 kW` |
+| `[LMUElectronicBridge.BrakeMigration_Str]` | Dynamic Brake Bias Migration | `1.5% F` |
+| `[LMUElectronicBridge.FrontARB_Str]` | Front Anti-Roll Bar Setting | `P3` |
+| `[LMUElectronicBridge.RearARB_Str]` | Rear Anti-Roll Bar Setting | `P1` |
+
 
 ### Full List of Properties:
 ### 📊 LMU Electronic Bridge: Property Reference
