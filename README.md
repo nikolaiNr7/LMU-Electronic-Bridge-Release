@@ -71,6 +71,12 @@ The plugin provides custom properties that are much more descriptive than the de
 | **RearARB_Str** | Rear ARB Display Value (String) | `[LMUElectronicBridge.RearARB_Str]` | `$prop('LMUElectronicBridge.RearARB_Str')` |
 | **TeamName** | Name of your current team | `[LMUElectronicBridge.TeamName]` | `$prop('LMUElectronicBridge.TeamName')` |
 | **VehicleName** | Full name of the current vehicle | `[LMUElectronicBridge.VehicleName]` | `$prop('LMUElectronicBridge.VehicleName')` |
+| **SuspensionDamageFrontLeft** | Front-Left suspension damage (0.0-1.0) | `[LMUElectronicBridge.Damage.SuspensionDamageFrontLeft]` | `$prop('LMUElectronicBridge.Damage.SuspensionDamageFrontLeft')` |
+| **SuspensionDamageFrontRight** | Front-Right suspension damage (0.0-1.0) | `[LMUElectronicBridge.Damage.SuspensionDamageFrontRight]` | `$prop('LMUElectronicBridge.Damage.SuspensionDamageFrontRight')` |
+| **SuspensionDamageRearLeft** | Rear-Left suspension damage (0.0-1.0) | `[LMUElectronicBridge.Damage.SuspensionDamageRearLeft]` | `$prop('LMUElectronicBridge.Damage.SuspensionDamageRearLeft')` |
+| **SuspensionDamageRearRight** | Rear-Right suspension damage (0.0-1.0) | `[LMUElectronicBridge.Damage.SuspensionDamageRearRight]` | `$prop('LMUElectronicBridge.Damage.SuspensionDamageRearRight')` |
+| **SuspensionDamageAverage** | Average suspension damage (0.0-1.0) | `[LMUElectronicBridge.Damage.SuspensionDamageAverage]` | `$prop('LMUElectronicBridge.Damage.SuspensionDamageAverage')` |
+| **AeroDamage** | Aerodynamic/bodywork damage (0.0-1.0) | `[LMUElectronicBridge.Damage.AeroDamage]` | `$prop('LMUElectronicBridge.Damage.AeroDamage')` |
 
 
 **To add to a Dash:**
